@@ -1,328 +1,127 @@
 export const myProjects = [
   {
     id: 1,
-    title: "E-commerce Platform",
+    title: "Art-Bot",
     description:
-      "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
+      "An AI-powered art assistant that enables users to generate, customize, and purchase digital artwork seamlessly.",
     subDescription: [
-      "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Added payment systems, localization, and product filtering for functionality improvements.",
+      "Integrated an AI image generation engine to create high-quality artwork on-demand.",
+      "Implemented a secure authentication system with JWT for user accounts and saved creations.",
+      "Built a responsive and interactive frontend using React, Tailwind CSS, and Framer Motion for smooth animations.",
+      "Designed modular backend using Node.js and Express with MongoDB for storing user creations and project data.",
     ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/accessories.jpg",
+    href: "https://artbot-frontend.onrender.com/",
+    image: "/assets/projects/artbot.jpg",
     tags: [
-      {
-        id: 1,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
-      },
-      {
-        id: 2,
-        name: ".Net",
-        path: "/assets/logos/dotnet.svg",
-      },
-      {
-        id: 3,
-        name: "Ef Core",
-        path: "/assets/logos/efcore.png",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
+      { id: 1, name: "REACT" },
+      { id: 2, name: "TAILWIND CSS" },
+      { id: 3, name: "NODE.JS" },
+      { id: 4, name: "EXPRESS.JS" },
+      { id: 5, name: "MONGODB" },
+      { id: 6, name: "CLIP-DROP API" },
     ],
   },
   {
     id: 2,
-    title: "Authentication & Authorization System",
+    title: "Code-Reviewer",
     description:
-      "A secure authentication and authorization system using Auth0 for seamless user management.",
+      "An intelligent code review assistant that analyzes code quality, suggests improvements, and ensures best practices in real-time.",
     subDescription: [
-      "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
-      "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-      "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-      "Connected to a secure SQLite database for user data storage.",
+      "Built a backend using Node.js and Express, integrating Google Generative AI (Gemini API) for intelligent code analysis.",
+      "Designed a responsive frontend with React, allowing users to submit code snippets and receive instant reviews.",
+      "It provided me with a solid understanding of the API's functionality and how to integrate it effectively.",
     ],
     href: "",
-    logo: "",
-    image: "/assets/projects/auth-system.jpg",
+    image: "/assets/projects/codeai.jpg",
     tags: [
-      {
-        id: 1,
-        name: "Auth0",
-        path: "/assets/logos/auth0.svg",
-      },
-      {
-        id: 2,
-        name: "React",
-        path: "/assets/logos/react.svg",
-      },
-      {
-        id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
+      { id: 1, name: "REACT" },
+      { id: 2, name: "CSS" },
+      { id: 3, name: "GOOGLE-GEMINI-API" },
+      { id: 4, name: "NODE.JS" },
     ],
   },
+  
   {
     id: 3,
-    title: "Blazor Web App",
+    title: "Amrutam [Prompt Engineered]",
     description:
-      "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
+      "A healthcare frontend platform that connects patients with doctors through live consultations, built using prompt engineering techniques for improved interaction and usability.",
     subDescription: [
-      "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
-      "Implemented API interactions using .NET Core for a robust backend.",
-      "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
-      "Integrated SQLite for efficient client-side database storage.",
+      "Implemented prompt engineering to enhance user guidance, improving the clarity and flow of patient-doctor interactions.",
+      "Developed features for scheduling consultations, managing patient requests, and providing an easy-to-use interface for seamless communication.",
+      "The project is in progress, with the backend being developed using prompt engineering; however, a functional frontend prototype is currently available for demonstration.",
     ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/blazor-app.jpg",
+    href: "https://amrutam-ojhm.vercel.app/",
+    image: "/assets/projects/amrutam.jpg",
     tags: [
-      {
-        id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
-      },
-      {
-        id: 2,
-        name: ".NET Core",
-        path: "/assets/logos/dotnetcore.svg",
-      },
-      {
-        id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
+      { id: 1, name: "REACT" },
+      { id: 2, name: "TAILWIND" },
     ],
   },
   {
     id: 4,
-    title: "C++ Game Engine",
+    title: "Crypto Forge [Prompt Engineered]",
     description:
-      "A lightweight C++ game engine designed for 2D and 3D game development.",
+      "A cryptocurrency information dashboard built with HTML, CSS, and JavaScript, enhanced using prompt engineering techniques for smarter data handling.",
     subDescription: [
-      "Built a powerful rendering engine using OpenGL and C++.",
-      "Developed a physics engine with collision detection and particle effects.",
-      "Implemented a scripting system for easy game customization.",
-      "Optimized performance with multi-threading and efficient memory management.",
+      "Designed a responsive and interactive interface to display cryptocurrency market information.",
+      "This project demonstrates the potential of prompt engineering to generate results that are aligned with human interpretation and usability.",
     ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/game-engine.jpg",
+    href: "https://crypto-trading-five.vercel.app/",
+    image: "/assets/projects/cryptoforge.jpg",
     tags: [
-      {
-        id: 1,
-        name: "C++",
-        path: "/assets/logos/cplusplus.svg",
-      },
-      {
-        id: 2,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
-      },
-      {
-        id: 3,
-        name: "Git",
-        path: "/assets/logos/git.svg",
-      },
-      {
-        id: 4,
-        name: "Microsoft",
-        path: "/assets/logos/microsoft.svg",
-      },
-    ],
-  },
-  {
-    id: 5,
-    title: "WordPress Custom Theme",
-    description:
-      "A fully customizable WordPress theme optimized for performance and SEO.",
-    subDescription: [
-      "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
-      "Integrated Tailwind CSS for modern styling and UI enhancements.",
-      "Optimized SEO and page speed using Vite.js for fast builds.",
-      "Implemented custom widgets and plugin compatibility for extended functionality.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/wordpress-theme.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "WordPress",
-        path: "/assets/logos/wordpress.svg",
-      },
-      {
-        id: 2,
-        name: "HTML5",
-        path: "/assets/logos/html5.svg",
-      },
-      {
-        id: 3,
-        name: "CSS3",
-        path: "/assets/logos/css3.svg",
-      },
-      {
-        id: 4,
-        name: "Vite.js",
-        path: "/assets/logos/vitejs.svg",
-      },
-    ],
-  },
-  {
-    id: 6,
-    title: "Online Learning Platform",
-    description:
-      "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
-    subDescription: [
-      "Built using Blazor WebAssembly for a seamless SPA experience.",
-      "Implemented video streaming with Azure Media Services.",
-      "Added a quiz system with dynamic question generation and real-time grading.",
-      "Integrated Stripe API for secure payment processing.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/elearning.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
-      },
-      {
-        id: 2,
-        name: "Azure",
-        path: "/assets/logos/azure.svg",
-      },
-      {
-        id: 3,
-        name: "Stripe",
-        path: "/assets/logos/stripe.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
+      { id: 1, name: "HTML" },
+      { id: 2, name: "CSS" },
+      { id: 3, name: "JAVASCRIPT" },
     ],
   },
 ];
 
 export const mySocials = [
   {
-    name: "WhatsApp",
-    href: "",
-    icon: "/assets/socials/whatsApp.svg",
-  },
-  {
     name: "Linkedin",
-    href: "https://www.linkedin.com/in/ali-sanati/",
+    href: "https://www.linkedin.com/in/rhythem-sabharwal-a9027529b/",
     icon: "/assets/socials/linkedIn.svg",
   },
   {
     name: "Instagram",
-    href: "https://www.instagram.com/ali.sanatidev/reels/",
+    href: "https://www.instagram.com/rhythem.sabharwal/?igsh=bXg5MXRpamxtOWVp#",
     icon: "/assets/socials/instagram.svg",
   },
+  {
+    name: "Git",
+    href:"https://github.com/Rhythem2005/",
+    icon:"/assets/socials/git.svg",
+  }
 ];
 
 export const experiences = [
   {
-    title: "Software Developer",
-    job: "Security & Defense Projects",
-    date: "2021-2023",
+    title: "Master Data Structure And Algorithms In C++",
+    instituition: "Coding Blocks",
+    date: "May[2025] - October[2025]",
     contents: [
-      "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-      "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-      "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
-    ],
+    "A comprehensive 6-month program designed to build strong foundations in Data Structures, Algorithms, and efficient problem-solving using C++.",
+    "Explored fundamental concepts such as recursion, sorting algorithms (quick sort, merge sort, heap sort), and searching techniques (binary and linear search).",
+    "Implemented and analyzed core data structures including arrays, linked lists, stacks, queues, trees, heaps, and graphs.",
+    "Gained hands-on experience with algorithmic paradigms such as Dynamic Programming, Greedy Algorithms, Divide & Conquer, and Backtracking.",
+  "Focused on complexity analysis (time and space), optimization techniques, and real-world applications of algorithms in competitive programming and interviews.",
+],
+ 
   },
   {
-    title: "Back-End Developer",
-    job: "Car Manufacture",
-    date: "2023-2024",
+    title: "Minor In Arificial Intelligence",
+    instituition: "Indian Institute Of Technology, Ropar",
+    date: "August[2024] - September[2025]",
     contents: [
-      "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-      "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
-    ],
-  },
-  {
-    title: "Freelance Developer",
-    job: "Self-Employed",
-    date: "2025-Present",
-    contents: [
-      "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
-      "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
-    ],
-  },
-];
-export const reviews = [
-  {
-    name: "Jack",
-    username: "@jack",
-    body: "I've never seen anything like this before. It's amazing. I love it.",
-    img: "https://robohash.org/jack",
-  },
-  {
-    name: "Jill",
-    username: "@jill",
-    body: "I don't know what to say. I'm speechless. This is amazing.",
-    img: "https://robohash.org/jill",
-  },
-  {
-    name: "John",
-    username: "@john",
-    body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://robohash.org/john",
-  },
-  {
-    name: "Alice",
-    username: "@alice",
-    body: "This is hands down the best thing I've experienced. Highly recommend!",
-    img: "https://robohash.org/alice",
-  },
-  {
-    name: "Bob",
-    username: "@bob",
-    body: "Incredible work! The attention to detail is phenomenal.",
-    img: "https://robohash.org/bob",
-  },
-  {
-    name: "Charlie",
-    username: "@charlie",
-    body: "This exceeded all my expectations. Absolutely stunning!",
-    img: "https://robohash.org/charlie",
-  },
-  {
-    name: "Dave",
-    username: "@dave",
-    body: "Simply breathtaking. The best decision I've made in a while.",
-    img: "https://robohash.org/dave",
-  },
-  {
-    name: "Eve",
-    username: "@eve",
-    body: "So glad I found this. It has changed the game for me.",
-    img: "https://robohash.org/eve",
+    "An intensive program focused on mastering core and advanced concepts of Artificial Intelligence through theory and practical implementation.",
+    "Covered a wide range of foundational and emerging topics including Data Handling, Introduction to Prompt Programming, Neural Links, and the working of Advanced Large Language Models (LLMs).",
+    "Explored specialized domains such as Computer Vision and Natural Language Processing (NLP), with hands-on projects demonstrating real-world AI use cases.",
+    "Developed expertise in TinyML and its applications in deploying AI models on resource-constrained devices, along with broader applications of AI in multiple industries.",
+    "Gained exposure to advanced techniques in prompt engineering, optimization of AI workflows, and ethical considerations in AI development.",
+    "Major projects as part of the program, showcasing practical understanding of end-to-end AI system development.",
+],
+
+  
   },
 ];

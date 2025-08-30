@@ -6,8 +6,8 @@ const Project = ({
   description,
   subDescription,
   href,
-  image,
   tags,
+  image,
   setPreview,
 }) => {
   const [isHidden, setIsHidden] = useState(false);
